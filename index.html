@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .book .heading span {
+    font-size: 2rem; /* Increase heading font size */
+}
+
+.book .inputBox h3 {
+    font-size:2rem; /* Increase label font size */
+}
+
+.book .inputBox input {
+    font-size: 2rem; /* Increase input field font size */
+}
+
+.book .btn {
+    font-size: 2rem; /* Increase button font size */
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HimanshuTours</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Aeroplane.png">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a class="navbar-brand" href="/">
+        </a>
+        <div class="nav">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <!-- <a href="#services">Services</a> -->
+                <a href="#packages">Packages</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Himanshu Tours Welcomes You!</h3>
+            <p>Discover India with us, Adventure Awaits.</p>
+            <p>India is yours to Explore.</p>
+        </div>
+
+        <div class="controls">
+            <span class="img-btn active" data-src="images/imagecon1.jpg"></span>
+            <span class="img-btn" data-src="images/1.jpg"></span>
+            <span class="img-btn" data-src="images/10.jpg"></span>
+            <span class="img-btn" data-src="images/11.jpg"></span>
+            <span class="img-btn" data-src="images/12.jpg"></span>
+        </div>
+
+        <div class="img-container">
+            <img src="images/imagecon1.jpg" id="img-slider">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+    <br />
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+        <h1 class="heading"><span>BOOK NOW</span></h1>
+        <br />
+        <div class="row">
+            <div class="image">
+                <img src="images/book-img.png" alt="">
+            </div>
+            <div class="booking-form">
+                <div class="inputBox">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location </h3>
+                    <input type="text" id="destination" placeholder="Destination Name">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-user-friends"></i> No of Persons </h3>
+                    <input type="number" id="guests" placeholder="Number of Guests">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-phone-alt"></i> Phone No </h3>
+                    <input type="number" id="phone" placeholder="Contact Number">
+                </div>
+                <a href="#" id="whatsapp-btn" class="btn">Book Now via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading"><span>PACKAGES</span></h1>
+        <br />
+        <div class="box-container">
+
+
+            <div class="box">
+                <img src="images/varanasi-tour.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Varanasi , India </h3>
+                    <p>A famous line about Varanasi, or Benaras, often attributed to Mark Twain, is: "Benaras is older than history, older than tradition, older even than legend, and looks twice as old as all of them put together".</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₹5,000 <span>₹9,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/imagecon1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Taj Mahal ,Agra,India </h3>
+                    <p>A wonder of wonders in the world, the Taj Mahal is a living edifice of human passion, which neither History dares to bury in its grave nor does Time dare to forget.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₹5,000 <span>₹9,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <br />
+  
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading"><span>GALLERY</span></h1>
+        <br />
+        <div class="box-container">
+            <div class="box">
+                <img src="images/1.jpg" alt="">
+                <div class="content">
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/2.jpg" alt="">
+                <div class="content">
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/4.jpg" alt="">
+                <div class="content">
+                   
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/1.jpg" alt="">
+                <div class="content">
+                   
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/5.jpg" alt="">
+                <div class="content">
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/6.jpg" alt="">
+                <div class="content">
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/7.jpg" alt="">
+                <div class="content">
+                   
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/8.jpg" alt="">
+                <div class="content">
+                  
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/9.jpg" alt="">
+                <div class="content">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section ends -->
+    <br />
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>REVIEW</span>
+        </h1>
+        <br />
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <!-- <img src="images/pic1.jpg" alt=""> -->
+                        <h3>Anuj Tripathi</h3>
+                        <p> There was full safety and full covid precautions too. Vacation important nahi hai inke
+                            safety se santusht hue ye impotant hai.
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <!-- <img src="images/pic2.jfif" alt=""> -->
+                        <h3>Hari Pandit</h3>
+                        <p>अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स
+                            ह क्ष त्र ज्ञ. Good Travel Ok. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <!-- <img src="images/pic3.jpg" alt=""> -->
+                        <h3>Mia Talerico</h3>
+                        <p>My mother doesn't speak english very well. she said me to convey this message that it was our
+                            Best Trip ever in India.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <!-- <img src="images/pic4.jpg" alt=""> -->
+                        <h3>Suyash Jhadav</h3>
+                        <p>Mast Maja aya 5 star le re baba Jai
+                            Maharashtra. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends -->
+    <br />
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>CONTACT</span>
+        </h1>
+        <br />
+        <div class="row">
+
+            <div class="map" style="width: 40%">
+                <iframe width="380" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.744545926054!2d82.9847955!3d25.2828792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db9b4f8c8f3%3A0x7b0c6f7a0e5c5a2b!2sB33%2F59%20Batuapura%2C%20Sunderpur%2C%20Varanasi!5e0!3m2!1sen!2sin!4v1690000000000!5m">
+                    <a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a>
+                </iframe>
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="Phone No">
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Send Message>>>">
+            </form>
+        </div>
+    </section>
+
+    <!-- contact section ends -->
+    <br />
+    <!-- footer section  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>We Believe in Safe & Happy Travel. Do make yourself feel like party of Himanshu Tours Family. Visit any
+                    destination at very ease and safety with us.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#services">Services</a>
+                <a href="#packages">Packages</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Contact us</h3>
+                <p><i class="fas fa-phone-alt"></i> +91 9554065513</i></p>
+                <p><i class="fas fa-envelope"></i> hishusingh74@gmail.com</i></p>
+                <p><i class="fas fa-home"></i> B33/59 Batuapura, Sunderpur, Varanasi</i></p>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="https://www.instagram.com/himanshusingh1316?igsh=dGVqM2ZwNHQ4eXU2"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
